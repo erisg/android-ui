@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "169986750254",
+    "firebase_url": "https://goskate-2bf1c.firebaseio.com/",
+    "project_id": "goskate-2bf1c",
+    "storage_bucket": "goskate-2bf1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169986750254:android:a0bede5efccbd99e",
+        "android_client_info": {
+          "package_name": "bog.skate.eris.goskate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169986750254-usoctq7opik7cor3hf3vmcds92l9cvpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bog.skate.eris.goskate",
+            "certificate_hash": "51f92fc984cc4de81bbddaf03c169511b24022ec"
+          }
+        },
+        {
+          "client_id": "169986750254-k101jp60038m05jvrk6ubjpp318ck2lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_uygFZzO6O9L3gKo7rR9k3s0Ae5geywc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169986750254-k101jp60038m05jvrk6ubjpp318ck2lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

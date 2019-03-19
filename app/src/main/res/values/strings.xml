@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GoSkate</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">GoSkate Map</string>
+    <string name="title_activity_login">loginActivity</string>
+    <string name="title_galery" />
+    <string name="title_skateshop">SkateShop</string>
+    <string name="title_post_rider">Rider</string>
+    <string name="title_post_truco">Truco</string>
+    <string name="title_post_spot">Spot</string>
+    <string name="title_password">Contraseña...</string>
+    <string name="title_registro">REGISTRARSE</string>
+    <string name="title_email">Email</string>
+    <string name="title_ingresar">Ingresar</string>
+    <string name="title_ingresar_con">Ingresar con</string>
+    <string name="no_user_count">¿Aun no tienes una cuenta?</string>
+    <string name="title_salir">Salir</string>
+    <string name="title_ini">GoSkate Bogota</string>
+    <string name="parches">Parches</string>
+    <string name="title_comfir_password">Comfirmar Contraseña</string>
+</resources>

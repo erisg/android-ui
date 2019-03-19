@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postActivity"
+    android:background="@drawable/fondiipost">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="503dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="139dp"
+            android:layout_height="87dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logoingre" />
+
+        <EditText
+            android:id="@+id/riderPost"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/input"
+            android:hint="@string/title_post_rider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="123dp"
+            android:background="@drawable/fondopost">
+
+            <ImageButton
+                android:id="@+id/post_galery"
+                android:layout_width="324dp"
+                android:layout_height="184dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/addpic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="316dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/amarillo">
+
+            <EditText
+                android:id="@+id/trucoPost"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/input"
+                android:hint="@string/title_post_truco" />
+
+            <EditText
+                android:id="@+id/spotPost"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/trucoPost"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input"
+                android:hint="@string/title_post_spot" />
+
+            <Button
+                android:id="@+id/btn_compartir"
+                android:layout_width="158dp"
+                android:layout_height="49dp"
+                android:layout_below="@+id/spotPost"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:background="@drawable/compartir" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/common_google_signin_btn_text_dark_default"
+        app:menu="@menu/navigation" />
+
+
+</RelativeLayout>
